@@ -45,7 +45,7 @@ const headers = {
     'Accept': 'application/json',
     'Authorization': null
 };
-console.log("PixelVerse by Ilham Riky Rismawan")
+
 (async() => {
     var referralCode = readline.question(`[ ${moment().format("HH:mm:ss")} ] ` + 'Reff Code : ');
     var jumlah = readline.question(`[ ${moment().format("HH:mm:ss")} ] ` + 'Jumlah Reff : ');
